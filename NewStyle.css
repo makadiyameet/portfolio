@@ -1,0 +1,40 @@
+@keyframe example
+ {
+  from{font-size:100%;font-weight:Bold;}
+  to{font-size:120%;font-weight:Italic;}
+}
+div.container-fluid h3
+{
+ font-size:120%;
+ font-weight:Italic;
+ animation-name:example;
+ animation-duration:3s;
+}
+div.row
+{
+ background-color:#ffff99 ;
+}
+body
+{
+ background-color:#ffff99 ;
+}
+div.jumbotron.text-center
+{
+  background-image:url('back1.jpg');
+  background-size:cover;
+   width:100%;
+   height:auto;
+}
+h1
+{
+
+  font-family: 'Acme', sans-serif;
+}
+h3
+{
+  font-family: 'Gelasio', serif;
+  font-weight: bold;
+}
+div.end{
+  text-align:center;
+}
